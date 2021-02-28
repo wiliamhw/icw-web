@@ -232,7 +232,7 @@
         </div>
     </div>
 
-    <section class="w-full py-36 px-20 sm:px-24 md:px-24">
+    <!-- <section class="w-full py-36 px-20 sm:px-24 md:px-24">
         <div class="grid grid-cols-2 gap-28 relative pt-2 max-w-7xl mx-auto md:my-10">
             <div class="w-full col-span-2 text-white text-center">
                 <h2 class="text-3xl font-extrabold  md:text-4xl">
@@ -270,8 +270,101 @@
                 </main>
             </div>
         </div>
-    </section>
+    </section> -->
 
+
+    <section class="flex flex-col flex-1 xlplus:px-0 px-10 bg-bgsection-0 py-28 items-center">
+        <div class="text-3xl font-bold self-center">
+            <h1 class="text-white">Prizes</h1>
+        </div>
+
+        <div class="text-sm font-medium self-center text-captionprize-0 text-center py-4">
+            <p>
+                There’s no event that complete without the prizes to appreciate the winner!
+                <br>
+                Get your chance to win some cash.
+            </p>
+        </div>
+
+
+        <div class="py-10 w-1/2 self-center">
+            <img src="public/assets/img/prize.png" alt="">
+        </div>
+
+
+
+        <div class="flex">
+            <div class="flex-1">
+            <div class="grid grid-cols-3 gap-20">
+            
+
+                <div
+                    class="row-start-2 md:col-start-1  md:row-start-1 col-span-3 md:col-span-1 transform duration-200 w-auto bg-bgsection-0 rounded-xl shadow-neu self-center hover:scale-105">
+                    <div class="flex flex-col px-10 py-10 text-white">
+                        <h1 class="font-semibold self-center text-sm pb-4">
+                            2nd Winner
+                        </h1>
+
+                        <p class="font-bold text-2xl self-center text-center">
+                            500.000
+                            <br>
+                            IDR
+
+                        </p>
+                    </div>
+
+
+
+                </div>
+
+           
+
+            <div
+                class="row-start-1 md:row-start-1  col-span-3 md:col-span-1 transform duration-200 w-auto bg-bgsection-0 rounded-xl shadow-neu self-center flex-1 hover:scale-110">
+                <div class="flex flex-col px-10 py-10 text-white">
+                    <h1 class="font-semibold self-center text-sm pb-4">
+                        1st Winner
+                    </h1>
+
+                    <p class="font-bold text-2xl self-center text-center">
+                        1.000.000
+                        <br>
+                        IDR
+
+                    </p>
+                </div>
+
+
+            </div>
+
+
+           
+                <div
+                    class="col-span-3 md:col-span-1 transform duration-200 w-auto bg-bgsection-0 rounded-xl shadow-neu self-center hover:scale-105">
+                    <div class="flex flex-col px-10 py-10 text-white">
+                        <h1 class="font-semibold self-center text-sm pb-4">
+                            3rd Winner
+                        </h1>
+
+                        <p class="font-bold text-2xl self-center text-center">
+                            250.000
+                            <br>
+                            IDR
+
+                        </p>
+                    </div>
+
+
+
+                </div>
+            
+        </div>
+        </div>
+        </div>
+
+        </div>
+
+    </section>
 
     <div class="bg-white text-black">
         <div
