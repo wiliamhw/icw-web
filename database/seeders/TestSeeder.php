@@ -7,6 +7,7 @@ use App\Models\Event;
 use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class TestSeeder extends Seeder
 {
@@ -56,6 +57,13 @@ class TestSeeder extends Seeder
                 );
             }
         );
+        DB::table('event_user')->where('event_id', 3)->update([
+            'gdrive_path'          => null,
+        ]);
+        DB::table('event_user')->where('event_id', 4)->update([
+            'gdrive_path'          => null,
+            'payment_receipt_path' => null,
+        ]);
 
         // Populate bill_event pivot table
         $events->each(
