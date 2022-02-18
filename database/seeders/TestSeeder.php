@@ -1,6 +1,6 @@
 <?php
 
-namespace Database\Seeders\test;
+namespace Database\Seeders;
 
 use App\Models\Bill;
 use App\Models\Event;
@@ -17,15 +17,6 @@ class TestSeeder extends Seeder
      */
     public function run()
     {
-        $this->call([
-            UserSeeder::class,
-            EventSeeder::class,
-            BillSeeder::class,
-            AnnouncementSeeder::class,
-            MessagesSeeder::class,
-            PartnerSeeder::class
-        ]);
-
         $events = Event::all();
         $bills = Bill::all();
         $status = ['success', 'pending', 'failed'];
@@ -45,9 +36,6 @@ class TestSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ]
         );
-
-        // first event is free
-        $events->first()->update(['price' => 0]);
 
         // remove first events
         $events = $events->filter(function ($event) {

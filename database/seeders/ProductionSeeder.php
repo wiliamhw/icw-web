@@ -14,7 +14,7 @@ class ProductionSeeder extends Seeder
     public function run()
     {
         $this->call([
-            UserSeeder::class,
+            AdminSeeder::class,
             EventSeeder::class,
             AnnouncementSeeder::class,
             BillSeeder::class

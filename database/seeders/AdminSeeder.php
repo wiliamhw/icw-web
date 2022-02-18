@@ -1,12 +1,12 @@
 <?php
 
-namespace Database\Seeders\test;
+namespace Database\Seeders;
 
 use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 use App\Models\User;
 
-class UserSeeder extends Seeder
+class AdminSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -20,13 +20,13 @@ class UserSeeder extends Seeder
 
         // Admin <nama event>, email, password
         $admins = [
-            ['Admin Paper Competition', 'papercompetition@admin.com', 'AKUadminpaper'],
-            ['Admin Corrosion Workshop', 'corrotionworkshop@admin.com', 'AKUadmincorrosion'],
-            ['Admin Symposium', 'symposium@noreply.co', 'AKUadminsymposium'],
-            ['Admin Workshop Career Building', 'workshopcareer@admin.com', 'AKUadmincareer'],
-            ['Admin ICW Virtual Talks', 'virtualtalks@admin.com', 'AKUadminvirtual'],
+            ['Admin Paper Competition', 'papercompetition@admin.com', '12345678'],
+            ['Admin Corrosion Workshop', 'corrotionworkshop@admin.com', '12345678'],
+            ['Admin Symposium', 'symposium@admin.com', '12345678'],
+            ['Admin Workshop Career Building', 'workshopcareer@admin.com', '12345678'],
+            ['Admin ICW Virtual Talks', 'virtualtalks@admin.com', '12345678'],
             // event selanjutnya...
-            ['Master Admin', 'master@admin.com', 'kepodehkamu#2021'],
+            ['Master Admin', 'master@admin.com', '12345678'],
         ];
         $count = count($admins);
         for ($i = 0; $i < $count; $i++) {
@@ -40,9 +40,5 @@ class UserSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ]);
         }
-
-        User::factory()
-            ->count(30)
-            ->create();
     }
 }

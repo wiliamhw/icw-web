@@ -23,7 +23,7 @@ class EventSeeder extends Seeder
         // Jika event berlangsung selama satu hari
         $events = [
             [
-                'Paper Competition', '1', 'competition', '2022/03/07', '2022/04/17',
+                'Paper Competition', '35000', 'competition', '2022/03/07', '2022/05/17',
                 'Paper Competition ICW 2021 merupakan Kompetisi essay yang diperuntukkan untuk mahasiswa
                 se-Indonesia sebagai sarana mengaktualisasikan ide dan inovasinya dalam bidang korosi dengan mengangkat
                 tema “Mewujudkan pengembangan inovasi pengendalian korosi secara optimal.',

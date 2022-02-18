@@ -1,6 +1,7 @@
 <?php
 
 namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,9 +14,15 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call([
-            // Aktifkan salah satu
-             Test\TestSeeder::class // Seeder for testing
-//           ProductionSeeder::class // Sedder for production
+            AdminSeeder::class,
+            UserSeeder::class,
+            EventSeeder::class,
+            AnnouncementSeeder::class,
+            BillSeeder::class,
+
+            // Disable on prod
+            MessagesSeeder::class,
+            TestSeeder::class,
         ]);
     }
 }

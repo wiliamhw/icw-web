@@ -44,7 +44,7 @@ selalu perhatikan env.example
 ### Info Akun Admin
 * Akun admin terbgai menjadi dua, yaitu **admin normal** dan **admin master**.
 * Akun **admin normal** adalah akun users dengan id <= jumlah event.
-* Akun **admin master** adalah akun users dengan id <= jumlah event.
+* Akun **admin master** adalah akun users dengan id = (jumlah event + 1).
 * Akun admin tidak bisa dihapus.
 * Tiap event memiliki satu akun admin normal.
 * Admin tidak dapat mengganti ataupun melihat profil dan passwordnya.
@@ -56,10 +56,7 @@ selalu perhatikan env.example
     * Jika event tersebut gratis, maka tampilan verifikasi akan disembunyikan.
 * Bisa melihat pengumuman.
 * Tidak bisa melihat ataupun memodifikasi pesan.
-* Jika menggunakan seeder yang ada di program ini, maka profil dari akun admin normal adalah:
-    * Nama: `Admin <Nama Event>` (contoh: `Admin Event XXX`)
-    * Email: `admin<index>@admin.com` (contoh: `admin1@admin.com`)
-    * Password: `12345678`
+* Jika menggunakan seeder yang ada di program ini, kredensial akun admin dapat dilihat pada seeder.
 
 ### Otoritas Admin Master
 * Bisa melihat dan men-download data dari semua event.
@@ -107,7 +104,7 @@ selalu perhatikan env.example
 * Paper dapat dihapus hanya jika paper tersebut bernilai `0.00`.
 * Admin dapat memberi nilai pada paper mulai dari `0.00` hingga `100.00` .
 * Peserta dapat mendownload paper yang telah di submit di dashboard event peserta.
-* Jika admin menghapus paper peserta, maka peserta tidak dapat untuk mendownload paper yang telah ia submit.
+* Jika admin menghapus paper peserta, maka peserta tidak dapat mendownload paper yang telah ia submit.
 * Peserta yang papernya dihapus akan diberikan notifikasi melalui email.
 * Link pendaftaran dan upload paper akan ditutup secara otomatis sesuai dengan waktu penutupan pendaftaran yang ditampilkan di dashboard user.
 * Badget menampilkan jumlah paper yang bernilai 0 .
@@ -121,4 +118,4 @@ selalu perhatikan env.example
 * Jika eventnya gratis, maka nilai kolom `price` pada tabel `events` sama dengan `0`.  
 * Selain itu, terdapat pula tabel `messages` dan tabel `announcements`.
 * Event paper competition ber-id 1.
-* Pada event selai paper competition, kolom `nilai paper` di excel dikosongkan.
+* Pada event selain paper competition, kolom `nilai paper` di excel dikosongkan.
