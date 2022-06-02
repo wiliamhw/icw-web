@@ -121,9 +121,9 @@ class Event extends Model
                 ->created_at
             : Carbon::now();
         $batchs_date = [
-            Carbon::create(2022, 3, 26, 23, 59, 59),
-            Carbon::create(2022, 4, 9, 23, 59, 59),
-            Carbon::create(2022, 4, 17, 23, 59, 59),
+            Carbon::create(2022, 7, 26, 23, 59, 59),
+            Carbon::create(2022, 7, 9, 23, 59, 59),
+            Carbon::create(2022, 7, 17, 23, 59, 59),
         ];
 
         if ($now < $batchs_date[0]) {

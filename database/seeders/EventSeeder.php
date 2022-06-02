@@ -23,24 +23,24 @@ class EventSeeder extends Seeder
         // Jika event berlangsung selama satu hari
         $events = [
             [
-                'Paper Competition', '35000', 'competition', '2022/03/07', '2022/05/17',
+                'Paper Competition', '35000', 'competition', '2022/07/07', '2022/07/17',
                 'Paper Competition ICW 2021 merupakan Kompetisi essay yang diperuntukkan untuk mahasiswa
                 se-Indonesia sebagai sarana mengaktualisasikan ide dan inovasinya dalam bidang korosi dengan mengangkat
                 tema “Mewujudkan pengembangan inovasi pengendalian korosi secara optimal.',
                 'Indra Carllistya Pramadio', 'manamimushiiii', '085784779129', ' indra@pramadio.com', 'https://intip.in/GuidebookPaperCompICW2021/', ''
             ],
             [
-                'Corrosion Workshop', '10000', 'non-competition', '2022/05/21', '2022/05/21', 'Program pelatihan untuk mahasiswa dalam bentuk simulasi dengan pemberian study case mengenai korosi. Selain itu, workshop ini juga memberikan tambahan kualifikasi profesi serta kecakapan diri.
+                'Corrosion Workshop', '10000', 'non-competition', '2022/07/21', '2022/07/21', 'Program pelatihan untuk mahasiswa dalam bentuk simulasi dengan pemberian study case mengenai korosi. Selain itu, workshop ini juga memberikan tambahan kualifikasi profesi serta kecakapan diri.
                 ', 'Bazighoh Fattatin' , 'zhig.aa' , '082335982156', 'bazighohfattatin@gmail.com', 'https://www.google.com/', 'https://us02web.zoom.us/j/87118566244'
             ],
             [
-                'Symposium', '0', 'non-competition', '2022/05/22', '2022/05/22',
+                'Symposium', '0', 'non-competition', '2022/07/22', '2022/07/22',
                 'Symposium yang membahas tentang korosi serta aplikasi penanggulangannya di bidang
                 industri dan manufaktur, khususnya bidang Energi Baru dan Terbarukan (EBT) yang akan dipresentasikan oleh pembicara yang ahli dibidangnya. Symposium ICW 2021 dikemas berupa dialog interaktif serta diskusi antara narasumber dan peserta.',
                 'Lutfi Nur Aini', 'ltfnraini', '081332898488', 'lutfinuraini24@gmail.com', 'https://www.google.com/', 'https://us02web.zoom.us/j/87118566244'
             ],
             [
-                'Workshop Career Building', '0', 'non-competition', '2022/05/02', '2022/05/02', 'Program pelatihan untuk mahasiswa dalam mengenal dunia pekerjaan yang disampaikan oleh HRD (Human Resources Development) di suatu perusahaan. Workshop ini memberikan wawasan mengenai pembuatan dan pengaplikasian CV yang sesuai dengan kriteria ideal perusahaan di Indonesia, serta tahapan dan tata cara interview kerja.',
+                'Workshop Career Building', '0', 'non-competition', '2022/07/02', '2022/07/02', 'Program pelatihan untuk mahasiswa dalam mengenal dunia pekerjaan yang disampaikan oleh HRD (Human Resources Development) di suatu perusahaan. Workshop ini memberikan wawasan mengenai pembuatan dan pengaplikasian CV yang sesuai dengan kriteria ideal perusahaan di Indonesia, serta tahapan dan tata cara interview kerja.',
                 'I Gede Made Budari Dwi P', 'made_budari', '081936056416', 'madebudari7@gmail.com', 'https://www.google.com/',
                 'https://us02web.zoom.us/j/87118566244'
             ],
